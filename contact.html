@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="shortcut icon" href="assets/images/icon-green.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+
+    <script src="assets/script.js"></script>
+    <script src="bootstrap/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+    <header class="bg-white sticky-top shadow-sm">
+        <nav class="navbar navbar-expand-md">
+            <div class="container-xl px-xl-0">
+                <a class="navbar-brand" href="index.html">
+                    <img src="assets/images/logo-white.png" width="45" class="rounded-circle">
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav">
+                    <i class="fa-solid fa-caret-down"></i>
+                </button>
+
+                <div class="collapse navbar-collapse" id="nav">
+                    <ul class="navbar-nav ms-auto gap-2 text-center">
+                        <li class="nav-item rounded bg-secondary-subtle">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+
+                        <li class="nav-item rounded bg-secondary-subtle">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+
+                        <li class="nav-item rounded bg-secondary-subtle">
+                            <a class="nav-link" href="portfolio.html">Portfolio</a>
+                        </li>
+
+                        <li class="nav-item rounded bg-secondary-subtle">
+                            <a class="nav-link" href="services.html">Services</a>
+                        </li>
+
+                        <li class="nav-item rounded bg-dark">
+                            <a class="nav-link active text-white" href="contact.html"><i
+                                    class="fa-brands fa-nfc-symbol"></i> Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-title">
+            <h1>Contact Page</h1>
+        </section>
+
+        <section class="container-xl py-5">
+            <div class="row g-5">
+                <div class="col-lg-5">
+                    <h2 class="fw-bold text-dark mb-4">Get In Touch</h2>
+                    <p class="justify text-secondary mb-4">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                    <div class="d-flex flex-column gap-4">
+                        <div class="d-flex align-items-center gap-3">
+                            <div class="bg-secondary-subtle rounded-circle d-flex align-items-center justify-content-center"
+                                style="width: 50px; height: 50px; min-width: 50px;">
+                                <i class="fa-solid fa-phone fs-5 text-dark"></i>
+                            </div>
+                            <div>
+                                <h6 class="fw-bold text-dark mb-0">Call Me</h6>
+                                <span class="text-secondary">+880 1234 56789</span>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center gap-3">
+                            <div class="bg-secondary-subtle rounded-circle d-flex align-items-center justify-content-center"
+                                style="width: 50px; height: 50px; min-width: 50px;">
+                                <i class="fa-solid fa-envelope fs-5 text-dark"></i>
+                            </div>
+                            <div>
+                                <h6 class="fw-bold text-dark mb-0">Email Me</h6>
+                                <span class="text-secondary">noor@example.com</span>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center gap-3">
+                            <div class="bg-secondary-subtle rounded-circle d-flex align-items-center justify-content-center"
+                                style="width: 50px; height: 50px; min-width: 50px;">
+                                <i class="fa-solid fa-location-dot fs-5 text-dark"></i>
+                            </div>
+                            <div>
+                                <h6 class="fw-bold text-dark mb-0">Visit Office</h6>
+                                <span class="text-secondary">120/A, Dhanmondi, Dhaka-1207</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <div class="bg-secondary-subtle p-4 p-md-5 rounded-4 border shadow-sm">
+                        <h4 class="fw-bold text-dark mb-4">Send a Message</h4>
+                        <form>
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <div class="form-floating">
+                                        <input type="text" class="form-control border-0 shadow-sm" id="nameInput"
+                                            placeholder="Name">
+                                        <label for="nameInput">Your Name</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-floating">
+                                        <input type="email" class="form-control border-0 shadow-sm" id="emailInput"
+                                            placeholder="name@example.com">
+                                        <label for="emailInput">Your Email</label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-floating">
+                                        <input type="text" class="form-control border-0 shadow-sm" id="subjectInput"
+                                            placeholder="Subject">
+                                        <label for="subjectInput">Subject</label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-floating">
+                                        <textarea class="form-control border-0 shadow-sm"
+                                            placeholder="Leave a message here" id="messageTextarea"
+                                            style="height: 150px"></textarea>
+                                        <label for="messageTextarea">Your Message</label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <button class="btn btn-dark w-100 py-3 rounded-pill" type="submit">Send
+                                        Message</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="container-xl py-5 mb-4">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold text-dark">Our Location</h2>
+                <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                    tempor.</p>
+            </div>
+            <div class="bg-secondary-subtle p-2 rounded-4 border shadow-sm overflow-hidden" style="height: 400px;">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3652.247545931752!2d90.37035541543142!3d23.738581895147572!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b8b33cffc3c1%3A0x28ab16c87948ae15!2sDhanmondi%2C%20Dhaka!5e0!3m2!1sen!2sbd!4v1684949514561!5m2!1sen!2sbd"
+                    class="w-100 h-100 rounded-3 border-0" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-dark text-secondary pt-5 pb-3">
+        <div class="container-xl px-xl-0">
+            <div class="text-center">
+                <h2 class="fw-bold">PORTFOLIO</h2>
+                <small>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore optio sequi facilis, alias ex
+                    iusto.</small>
+
+            </div>
+
+            <hr class="my-3">
+
+            <div class="row g-5">
+                <div class="col-md-4 left-border">
+                    <div class="d-flex align-items-center gap-3">
+                        <img src="assets/images/brand-logo.jpg" class="rounded-circle" width="50">
+                        <div>
+                            <h6 class="fw-bold mb-0 lh-1">Noor Mohammad</h6>
+                            <p class="small justify">Lorem ipsum dolor sit amet.</p>
+                        </div>
+                    </div>
+
+                    <hr>
+
+                    <p class="justify small">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est ipsa
+                        inventore
+                        necessitatibus fugiat cumque quae consectetur recusandae, eveniet in architecto quos voluptates
+                        molestiae voluptas provident iure!</p>
+                </div>
+
+                <div class="col-md-4">
+                    <h4 class="fw-bold">Quick Links</h4>
+
+                    <div class="d-flex flex-column gap-2">
+                        <a class="nav-link" href="about.html">About</a>
+                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                        <a class="nav-link" href="services.html">Services</a>
+                        <a class="nav-link" href="#">Contact</a>
+                    </div>
+                </div>
+
+                <div class="col-md-4 left-border">
+                    <h4 class="fw-bold">Contact Me</h4>
+
+                    <div class="mt-3">
+                        <p class="mb-0 lh-2"><i class="fa-solid fa-phone"></i> +880 1234 56789</p>
+                        <p class="mb-0 lh-2"><i class="fa-solid fa-at"></i> noor@example.com</p>
+                        <p class="mb-0 lh-2"><i class="fa-solid fa-location-dot"></i> 120/A, Dhanmondi, Dhaka-1207</p>
+                    </div>
+
+                    <div
+                        class="d-flex gap-3 gap-xl-5 px-3 py-1 mt-3 rounded-pill bg-secondary text-dark max-content opacity-50">
+                        <a href="#" class="text-reset"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="text-reset"><i class="fab fa-x-twitter"></i></a>
+                        <a href="#" class="text-reset"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="text-reset"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <hr class="my-3">
+
+            <div class="text-center small">
+                <p>&copy; <span id="year"></span> Company, Inc. All rights reserved.</p>
+                <p><span id="time"></span> | <span id="date"></span></p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
